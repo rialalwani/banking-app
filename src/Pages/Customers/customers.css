@@ -1,0 +1,40 @@
+.container{
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    background-color: aliceblue;
+}
+.client{
+   width:250px;
+   height:200px;
+   background-color:#18A2C8;
+   margin:20px;
+}
+.heading{
+    text-align: center;
+}
+.page{
+    background-color:aliceblue;
+}
+div>button{
+    position:absolute;
+    border:5px solid #18A2C8;
+    padding:0.5%;
+    font-weight: bolder;
+    color:#18A2C8;
+    text-align: center;
+    margin-left: 60px;
+}
+div>p{
+padding-left:12px;
+}
+@media screen and (max-width:1000px) {
+    .container{
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        column-gap: 4rem;
+     }
+     .client{
+         width:250px;
+         height:200px;
+     }
+}

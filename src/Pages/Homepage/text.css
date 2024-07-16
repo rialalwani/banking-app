@@ -1,0 +1,17 @@
+.content{
+    color:whitesmoke;
+    height:100vh;
+    text-align: center;
+    margin:15rem;
+}
+.text1{
+    margin-top:2rem;
+    color:#11228D;
+}
+button{
+   border:3px solid #11228D;
+}
+.btn{
+    color:#11228D;
+    margin-top:6rem;
+}

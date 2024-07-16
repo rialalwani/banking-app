@@ -1,0 +1,22 @@
+.SideBarContainer{
+    width:14rem;
+    height:14rem;
+    background-color:aliceblue;
+    position: absolute;
+    z-index:100;
+    margin-top:1.5rem;
+    right:-0.2rem;
+}
+.SideBarContent>ul{
+    display: flex;
+    flex-direction:column;
+    gap:1.5rem;
+}
+.SideBarContent>ul>li{
+    display:flex;
+    flex-direction: row;
+    gap:0.5rem;
+}
+.sideBar-logo{
+    color:#18A2C8;
+}

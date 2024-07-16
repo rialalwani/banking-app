@@ -1,0 +1,58 @@
+.logo>img{
+    height:2rem;
+    padding-top: 0.35rem;
+    padding-left:0.8rem;
+}
+.nav{
+    height:3rem;
+    width:100dvw;
+    border:2px solid #18A2C8;
+    background-color: aliceblue;
+    display:flex;
+    gap:30rem;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    gap:3rem;
+    padding-top: 0.3rem;
+    height:3rem;
+}
+a{
+    color:#1C7AE6;
+    text-decoration: none;
+    
+}
+li{
+    list-style-type: none;
+}
+@media screen and (max-width:800px){
+    .settings{
+        display: flex;
+        flex-direction: column;
+        gap:0.5rem;
+        margin-top: 0.75rem;
+        position:absolute;
+        right:0%;
+    }
+    .nav1{
+        display:none;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .black_lines{
+        background-color: black;
+        width:1.5rem;
+        height:0.1rem;
+        cursor: pointer;
+    }
+    a{
+        color:#18A2C8;
+    }
+}
+@media screen and(max-width:1200px) and (min-width:801px){
+    .nav{
+        gap:5rem;
+    }
+}

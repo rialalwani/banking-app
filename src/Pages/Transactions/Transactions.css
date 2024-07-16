@@ -1,0 +1,57 @@
+.transactions-heading{
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+.Message{
+    color:white;
+    margin-top: 3rem;
+    display: flex;
+}
+.No_payments{
+    color:rgba(255, 255, 255, 0.71);
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 43%;
+}
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5rem;
+    justify-content: center;
+}
+.search_payments{
+    width:33rem;
+    height:1rem;
+    border: 1px solid rgba(128, 128, 128, 0.482);
+}
+.search_icon{
+    background-color: white;
+    height:1.19rem ;
+    margin-top: 0.09rem;
+    width:2.rem;
+}
+.payment_message{
+    text-align: center;
+    color:black;
+}
+.payment_message:hover{
+    background-color:rgba(128, 128, 128, 0.329) ;
+}
+.line_gap{
+    background-color: rgba(0, 0, 0, 0.26);
+    width:28rem;
+    height:0.1rem;
+}
+.payment-page{
+    background-color: white;
+    justify-content: center;
+    margin-left: 33%;
+}
+@media  screen and(max-width:1000px) {
+    .searchBar{
+        text-align: center;
+    }
+    
+}
