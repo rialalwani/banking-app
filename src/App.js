@@ -3,7 +3,7 @@ import Navbar from "./Components/navbar/navbar.jsx";
 import Text from "./Pages/Homepage/text.jsx";
 import Transactions from './Pages/Transactions/Transactions.jsx';
 import Customers from './Pages/Customers/customers.jsx';
-import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import { HashRouter as Router,Routes,Route} from 'react-router-dom';
 import Profile from "./Pages/Profile/Profile.jsx";
 import {useState} from "react";
 function App() {
